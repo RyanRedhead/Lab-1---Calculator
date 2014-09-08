@@ -1,2 +1,4 @@
-Lab-1---Calculator
+Simple Calculator from Assembly Language
+Lab 1
 ==================
+
