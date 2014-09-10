@@ -7,8 +7,8 @@ Simple Calculator from Assembly Language
 #Hardware Schematic
 
 #Debugging
-###After making corrections in the debugging mode, you need to terminate the program and run the Debug again so the changes take effect.
-###
+After making corrections in the debugging mode, you need to terminate the program and run the Debug again so the changes take effect.
+
 #Testing Methedology/Results
 
 #Observations/Conclusions
