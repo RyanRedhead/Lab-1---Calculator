@@ -4,6 +4,8 @@ Simple Calculator from Assembly Language
 
 #Flow Chart
 
+[!Alt Text](
+
 #Hardware Schematic
 
 Simply the board connected to the computer.
