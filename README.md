@@ -4,7 +4,7 @@ Simple Calculator from Assembly Language
 
 #Flow Chart
 
-[!Alt Text](
+[!Alt Text](https://github.com/RyanRedhead/Lab-1---Calculator/blob/master/Lab%201/photo.JPG?raw=true)
 
 #Hardware Schematic
 
