@@ -50,26 +50,26 @@ Inputs
 		jeq 	End
 
 Addition
-		add		r7,			r9
-		mov.w	r9,			r10
-		mov.w	r10, 		r7
+		add		r7,		r9
+		mov.w		r9,		r10
+		mov.w		r10, 		r7
 		jmp		ErrorCheck
 
 Subtraction
-		sub		r9,			r7
-		mov.w	r7,			r10
-		mov.w	r10,		r7
+		sub		r9,		r7
+		mov.w		r7,		r10
+		mov.w		r10,		r7
 		jmp ErrorCheck
 
 Multiply
 
-		cmp #0x0000, r7
+		cm		 #0x0000	r7
 		jz EndMultiply
-		cmp #0x0000, r9
+		cmp 		#0x0000, 	r9
 		jz EndMultiply1
 		rra		r9
 		jnc		MultiplyMore
-		add		r9, r7
+		add		r9, 		r7
 		jmp Multiply
 
 MultiplyMore
@@ -77,37 +77,37 @@ MultiplyMore
 		jmp		Multiply
 
 EndMultiply
-		mov.w	r7,		r10
-		mov.w	r10,	r7
+		mov.w		r7,		r10
+		mov.w		r10,		r7
 		jmp ErrorCheck
 
 
 EndMultiply1
-		mov.w r9,	r10
-		mov.w r10,r7
+		mov.w 		r9,		r10
+		mov.w 		r10,		r7
 		jmp ErrorCheck
 
 Clear
-		mov.w 	#0x0000, 	r10
-		mov.w	r9,			r7
+		mov.w 		#0x0000, 	r10
+		mov.w		r9,		r7
 		jmp ErrorCheck
 
 ErrorCheck
 
-		cmp 	#0x0000,	r10
+		cmp 		#0x0000,	r10
 		jl		Lower
-		cmp		#256,	r10
+		cmp		#256,		r10
 		jhs		Higher
-		mov.b	r10,		0(r6)
+		mov.b		r10,		0(r6)
 		inc		r6
 		jmp Inputs
 
 Lower
-		mov.w 	#0x0000,	r10
+		mov.w 		#0x0000,	r10
 		jmp ErrorCheck
 
 Higher
-		mov.w	#0x00FF,	r10
+		mov.w		#0x00FF,	r10
 		jmp ErrorCheck
 
 End jmp End
