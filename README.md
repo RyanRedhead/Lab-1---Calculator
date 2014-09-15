@@ -27,5 +27,5 @@ I created the program in modules. First, I created a loop to check which operati
 The first A functionality could have been achieved by making a loop and like 3rd grade math, adding a number to another number that many times. Ex. 4 x 3 = 4 + 4 + 4. I tried to go for the harder A functionality using shift-adds to multiply but I'm not sure why my program doesn't work.
 
 #Documentation: 
-I added more to my flow chart after Dr York checked it and commented on expanding the operations. Also, Dr York explained how to shift and add to create a multiplier that would achieve A functionality.
+I added more to my flow chart after Dr York checked it and commented on expanding the operations. Also, Dr York explained how to shift and add to create a multiplier that would achieve A functionality. 
 
