@@ -1,8 +1,8 @@
-Simple Calculator from Assembly Language
+Basic Cryptography
 ==================
 #Purpose
 
-To make a simple calculator using assemply language with inputs from myProgram.
+To decrpyt bytes with a key using subroutines.
 
 #Flow Chart
 
